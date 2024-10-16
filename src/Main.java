@@ -1,15 +1,23 @@
+import java.util.ArrayList;
+import java.util.List;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        Organizador organizador1 = new Organizador("Ana Silva", "9876543210", "12345678901");
+        Evento novoEvento = new Evento("Trabalho fudido", "10/02/204", "Uberlandia", "PIOR MATERIA", 300, organizador1 );
+
+        Participante p1 = new Participante("Pedro", "34993245995", "040483535359", "GI");
+        Participante p2 = new Participante("Jorge", "34993243995", "0404835345359", "GI");
+        Palestrante pa1 = new Palestrante("Artur Talini", "3249249", "a4833592");
+
+
+        p1.inscrever(novoEvento);
+        p2.inscrever(novoEvento);
+        novoEvento.mostarParticipantes();
+        novoEvento.setPalestrante(pa1);
+        novoEvento.mostrar();
     }
 }

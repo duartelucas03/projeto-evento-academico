@@ -1,4 +1,12 @@
-package PACKAGE_NAME;
+public class PessoaJuridica extends Pessoa {
+    private String cnpj;
 
-public class PessoaJuridica {
+    public PessoaJuridica(String nome, String telefone, String cnpj) {
+        super(nome, telefone);
+        this.cnpj = cnpj;
+    }
+
+    public String getCnpj() {
+        return cnpj;
+    }
 }
