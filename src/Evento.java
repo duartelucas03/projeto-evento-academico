@@ -5,6 +5,7 @@ public class Evento {
     private String nome, data, local, descricao;
     private int capacidade;
     private List<Participante> participantes = new ArrayList<>();
+    private List<Patrocinador> patrocinadores = new ArrayList<>();
     private Palestrante palestrante;
     private Organizador organizador;
 
@@ -45,6 +46,7 @@ public class Evento {
         return palestrante;
     }
 
+
     public void adicionarParticipante(Participante p) {
         participantes.add(p);
     }
@@ -53,9 +55,18 @@ public class Evento {
         participantes.remove(p);
     }
 
+    public void adicionarPatrocinador(Patrocinador pt) {
+        patrocinadores.add(pt);
+    }
+
     public List<Participante> listarParticipantes() {
         return participantes;
     }
+
+    public List<Patrocinador> listarPatrocinadores() {
+        return patrocinadores;
+    }
+
 
     public int calculaParticipantes(){
         return participantes.toArray().length;
@@ -65,11 +76,14 @@ public class Evento {
         System.out.println("Participantes: " + participantes);
     }
 
-    public void mostrar(){
+    public void dadosRelatorio(){
         System.out.println("Nome do evento: " + this.nome);
         System.out.println("Palestrante: " + this.palestrante);
         System.out.println("Data: " + this.data);
         System.out.println("Local: " + this.local);
         System.out.println("Número de participantes: " + calculaParticipantes());
+        System.out.println("Organizador: " + this.organizador);
+        System.out.println(patrocinadores);
     }
+
 }

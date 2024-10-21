@@ -10,7 +10,8 @@ public class Patrocinador extends PessoaJuridica {
         return valorInvestido;
     }
 
-    public void apoiarEvento(Evento e) {
-        // Código para apoiar o evento
+    public String toString() {
+        return "Patrocinador: " + super.toString() + " - Valor investido: " + valorInvestido;
     }
+
 }

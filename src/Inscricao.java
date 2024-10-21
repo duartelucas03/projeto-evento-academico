@@ -2,23 +2,8 @@ public class Inscricao {
     private Participante participante;
     private Evento evento;
     private String dataInscricao;
-    private String status;
+    private Patrocinador patrocinador;
 
-    public Inscricao(Participante participante, Evento evento, String dataInscricao, String status) {
-        this.participante = participante;
-        this.evento = evento;
-        this.dataInscricao = dataInscricao;
-        this.status = status;
-    }
-
-
-    public void confirmarInscricao() {
-        this.status = "Confirmada";
-    }
-
-    public void cancelarInscricao() {
-        this.status = "Cancelada";
-    }
 
     public Participante getParticipante() {
         return participante;
@@ -32,7 +17,17 @@ public class Inscricao {
         return dataInscricao;
     }
 
-    public String getStatus() {
-        return status;
+    public static void inscrever(Evento e, Participante p) {
+        e.adicionarParticipante(p);
+        System.out.println("Inscrição confirmada para o participante: " + p);
+    }
+
+    public static void cancelarInscricao(Evento e, Participante p) {
+        e.removerParticipante(p);
+        System.out.println("Inscrição cancelada para o participante: " + p);
+    }
+
+    public static void patrocinar(Evento e, Patrocinador pt){
+        e.adicionarPatrocinador(pt);
     }
 }

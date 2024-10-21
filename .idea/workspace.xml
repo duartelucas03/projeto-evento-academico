@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="344e28ee-1db0-4136-a6ad-e84b73ce8e6d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EventoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PessoaFisica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PessoaFisica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PessoaJuridica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PessoaJuridica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Evento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Evento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EventoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EventoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inscricao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inscricao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Palestrante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Palestrante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Participante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Participante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Patrocinador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patrocinador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Relatorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Relatorio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,16 +40,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.EventoMain.executor": "Run",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/lucas/Área de Trabalho/UFU/5o período/POO/EventoAcademico/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.EventoMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/lucas/Área de Trabalho/UFU/5o período/POO/EventoAcademico/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
