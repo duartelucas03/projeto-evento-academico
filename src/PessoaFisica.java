@@ -1,5 +1,5 @@
 public class PessoaFisica extends Pessoa {
-    private String cpf;
+    protected String cpf;
 
     public PessoaFisica(String nome, String telefone, String cpf) {
         super(nome, telefone);

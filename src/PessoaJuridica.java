@@ -1,5 +1,5 @@
 public class PessoaJuridica extends Pessoa {
-    private String cnpj;
+    protected String cnpj;
 
     public PessoaJuridica(String nome, String telefone, String cnpj) {
         super(nome, telefone);

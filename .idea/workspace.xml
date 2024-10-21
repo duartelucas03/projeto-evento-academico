@@ -5,24 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="344e28ee-1db0-4136-a6ad-e84b73ce8e6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EventoAcademico.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Certificado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Evento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inscricao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Organizador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Palestrante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Participante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Patrocinador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PessoaFisica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PessoaJuridica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Relatorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EventoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PessoaFisica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PessoaFisica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PessoaJuridica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PessoaJuridica.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2nWSeltq1z1qBoRoMqKdbfhGKBm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -52,6 +39,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.EventoMain.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
