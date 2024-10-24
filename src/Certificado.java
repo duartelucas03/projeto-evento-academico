@@ -1,27 +1,11 @@
-public class Certificado {
-    private Participante participante;
-    private Evento evento;
-    private String dataCertificado;
+public abstract class Certificado {
 
-    public Certificado(Participante participante, Evento evento, String dataCertificado) {
-        this.participante = participante;
-        this.evento = evento;
-        this.dataCertificado = dataCertificado;
+    // Metodo para gerar o certificado em arquivo de texto
+    public static void gerarCertificado(Participante p, String NomeEvento, String data, String local) {
+        String mensagemCertificado = "Atestamos que " + p.getNome() + ", portador(a) do CPF de número: " + p.getCpf() + ", participou do evento: "
+                + NomeEvento + " no dia "  + data + " na cidade de " + local + ".";
+        String nomeCertificado = "Certificado" + p.getNome() + ".txt";
+        ManipulaArquivos.escritaCertificado(mensagemCertificado, nomeCertificado);
     }
 
-    public void gerarCertificado() {
-        // Código para gerar o certificado
-    }
-
-    public Participante getParticipante() {
-        return participante;
-    }
-
-    public Evento getEvento() {
-        return evento;
-    }
-
-    public String getDataCertificado() {
-        return dataCertificado;
-    }
 }

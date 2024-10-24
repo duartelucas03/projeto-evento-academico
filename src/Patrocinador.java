@@ -1,17 +1,14 @@
 public class Patrocinador extends PessoaJuridica {
     private double valorInvestido;
 
+    // Criação do construtor
     public Patrocinador(String nome, String telefone, String cnpj, double valorInvestido) {
         super(nome, telefone, cnpj);
         this.valorInvestido = valorInvestido;
     }
 
-    public double getValorInvestido() {
-        return valorInvestido;
-    }
-
     public String toString() {
-        return "Patrocinador: " + super.toString() + " - Valor investido: " + valorInvestido;
+        return super.toString() + " - Valor investido: " + valorInvestido;
     }
 
 }

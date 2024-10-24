@@ -1,32 +1,18 @@
-public class Inscricao {
-    private Participante participante;
-    private Evento evento;
-    private String dataInscricao;
-    private Patrocinador patrocinador;
+// Classe utilizada para realizar a inscrição dos participantes e patrocinadores no evento.
+public abstract class Inscricao {
 
-
-    public Participante getParticipante() {
-        return participante;
-    }
-
-    public Evento getEvento() {
-        return evento;
-    }
-
-    public String getDataInscricao() {
-        return dataInscricao;
-    }
-
+    // Metodo para adicionar participante no ArrayList do evento.
     public static void inscrever(Evento e, Participante p) {
         e.adicionarParticipante(p);
-        System.out.println("Inscrição confirmada para o participante: " + p);
     }
 
+    // Metodo para remover participante no ArrayList do evento.
     public static void cancelarInscricao(Evento e, Participante p) {
         e.removerParticipante(p);
-        System.out.println("Inscrição cancelada para o participante: " + p);
+
     }
 
+    // Metodo para adicionar patrocinador no ArrayList do evento.
     public static void patrocinar(Evento e, Patrocinador pt){
         e.adicionarPatrocinador(pt);
     }

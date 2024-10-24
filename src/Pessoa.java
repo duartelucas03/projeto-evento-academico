@@ -1,7 +1,8 @@
-public class Pessoa {
+public abstract class Pessoa {
     protected String nome;
     protected String telefone;
 
+    // Criação do construtor
     public Pessoa(String nome, String telefone) {
         this.nome = nome;
         this.telefone = telefone;
@@ -9,14 +10,6 @@ public class Pessoa {
 
     public String getNome() {
         return nome;
-    }
-
-    public String getTelefone() {
-        return telefone;
-    }
-
-    public void setTelefone(String telefone) {
-        this.telefone = telefone;
     }
 
     public String toString() {

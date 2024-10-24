@@ -1,16 +1,10 @@
-import java.util.List;
+public abstract class Relatorio {
 
-public class Relatorio {
-    private Evento evento;
-    private List<String> dadosRelatorio;
-
-
+    // Metodo para gerar o relatório em .txt
     public static void gerarRelatorio(Evento e) {
-            e.dadosRelatorio();
-    }
-
-    public Evento getEvento() {
-        return evento;
+            String dadosRelatorio = e.dadosRelatorio();
+            String nomeRelatorio = "relatorio" + e.getNome() + ".txt";
+            ManipulaArquivos.escritaRelatorio(dadosRelatorio, nomeRelatorio);
     }
 
 }
