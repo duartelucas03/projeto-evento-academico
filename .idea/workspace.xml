@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="344e28ee-1db0-4136-a6ad-e84b73ce8e6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ManipulaArquivos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Certificado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Certificado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Evento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Evento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EventoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EventoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inscricao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inscricao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Organizador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Organizador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Palestrante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Palestrante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Participante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Participante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Patrocinador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patrocinador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PessoaFisica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PessoaFisica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PessoaJuridica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PessoaJuridica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Relatorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Relatorio.java" afterDir="false" />
-    </list>
+    <list default="true" id="344e28ee-1db0-4136-a6ad-e84b73ce8e6d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,17 +31,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.EventoMain.executor": "Run",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/lucas/Área de Trabalho/UFU/5o período/POO/EventoAcademico",
-    "onboarding.tips.debug.path": "C:/Users/lucas/Área de Trabalho/UFU/5o período/POO/EventoAcademico/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.EventoMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lucas/Área de Trabalho/UFU/5o período/POO/EventoAcademico&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/lucas/Área de Trabalho/UFU/5o período/POO/EventoAcademico/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="EventoMain" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="D:/PROG-NO-HDD/JDK" />
