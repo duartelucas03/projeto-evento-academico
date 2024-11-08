@@ -13,5 +13,4 @@ public class Palestrante extends PessoaFisica {
     public String toString() {
         return super.toString();
     }
-
 }

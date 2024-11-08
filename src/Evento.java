@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 // Classe para criação do evento
-public class Evento {
+public class Evento implements ManipulaArquivos{
     private String nome;
     private String data;
     private String local;
@@ -106,5 +106,4 @@ public class Evento {
             Certificado.gerarCertificado(participantes.get(i), this.nome, this.data, this.local);
         }
     }
-
 }

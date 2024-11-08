@@ -11,4 +11,3 @@ public class Participante extends PessoaFisica {
         return super.toString();
     }
 }
-

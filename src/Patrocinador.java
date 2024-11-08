@@ -10,5 +10,4 @@ public class Patrocinador extends PessoaJuridica {
     public String toString() {
         return super.toString() + " - Valor investido: " + valorInvestido;
     }
-
 }

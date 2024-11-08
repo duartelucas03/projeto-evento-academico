@@ -9,7 +9,6 @@ public abstract class Inscricao {
     // Metodo para remover participante no ArrayList do evento.
     public static void cancelarInscricao(Evento e, Participante p) {
         e.removerParticipante(p);
-
     }
 
     // Metodo para adicionar patrocinador no ArrayList do evento.

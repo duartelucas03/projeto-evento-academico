@@ -1,9 +1,9 @@
 import java.io.*;
 
-public abstract class ManipulaArquivos {
+public interface ManipulaArquivos {
 
         // Metodo para escrever o certificado dentro do arquivo txt
-        public static void escritaCertificado(String dadosCertificado, String nomeArq) {
+        static void escritaCertificado(String dadosCertificado, String nomeArq) {
             try {
                 FileWriter arq = new FileWriter(nomeArq);
                 PrintWriter out = new PrintWriter(arq);
@@ -16,7 +16,7 @@ public abstract class ManipulaArquivos {
         }
 
         // Metodo para escrever o relatorio dentro do arquivo txt
-        public static void escritaRelatorio(String dadosRelatorio, String nomeArq) {
+        static void escritaRelatorio(String dadosRelatorio, String nomeArq) {
             try {
                 FileWriter arq = new FileWriter(nomeArq);
                 PrintWriter out = new PrintWriter(arq);
